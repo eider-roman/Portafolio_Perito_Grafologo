@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perito Grafólogo</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Signika:wght@502&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/node_modules/eins-modal/dist/css/eins-modal.min.css"> 
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+<div class="navbar">
+            <nav>
+                <ul>
+                    <li><a href=#inicio>Inicio</a></li>
+                    <li><a href=#portafolio>Portafolio</a></li>
+                    <li><a href=#about-me>Sobre mi</a></li>
+                </ul>
+            </nav>
+        </div>
+</header>
+
+<section>
+    <div class = "hero" id="inicio">     
+        <img src="./img/4930496.jpg" alt="">
+    </div>
+
+    <div class="prolife">
+        <div class="square"></div>
+        <div class="circle-trans"></div>
+        <div class="circle"></div>
+        <div class="prolife-img"><img src="./img/img_7582.jpg" alt=""></div>
+        <div class="square-text">EIDER FABIÁN ROMÁN</div>
+        <div class="square-text-2"><span>PERITO EN GRAFOLOGÍA | DOCUMENTOLOGÍA</span></div>
+        <div class="contact-icon">
+            <a href="https://www.linkedin.com/in/eider-f-roman-peritografologo/" target="_blank"><img src="./img/linkedin.svg" alt=""></a>
+            <a href="https://t.me/Romaneid" target="_blank"><img src="./img/telegram.svg" alt=""></a>
+            <a data-modal-id="message"><img src="./img/message.svg" alt="" target="_blank"></a>   
+        </div>
+        <div class="square-text-3"><a href="#about-me"><span>About me |</span> Sobre mi</a> </div>
+    </div>
+</section>
+    
+<section id="portafolio" class="portfolio-section">
+    <h2 class="section-title">Portafolio de Servicios</h2>
+    <p class="section-subtitle">
+      Conozca los servicios periciales que ofrezco en el área de grafología y documentología.
+    </p>
+  
+    <div class="briefcase-grid">
+      <div class="service-card">
+        <h3>Peritaje Grafológico</h3>
+        <p>Estudio técnico de firmas, rúbricas y escritura manuscrita para determinar autenticidad y autoría.</p>
+      </div>
+  
+      <div class="service-card">
+        <h3>Documentología Forense</h3>
+        <p>Examen de documentos para identificar alteraciones, falsificaciones o manipulaciones físicas.</p>
+      </div>
+  
+      <div class="service-card">
+        <h3>Dictamen Pericial</h3>
+        <p>Emisión de informes técnicos para procesos judiciales y administrativos conforme a la normatividad Colombiana.</p>
+      </div>
+  
+      <div class="service-card">
+        <h3>Asesoría Jurídico–Pericial</h3>
+        <p>Orientación profesional para abogados, empresas o particulares en casos que requieran análisis pericial documental.</p>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="about" id="about-me">
+      <div class="about-flex container">
+          <div class="about-info">
+              <p>Mi nombre es Eider Fabián Román, soy un perito en grafología y documentología con más de 10 años de experiencia en el área.
+              Me dedicado al análisis técnico y científico de documentos y escrituras para fines periciales e identificativos.
+              Mi labor se centra en la verificación de autenticidad y detección de alteraciones en documentos y escrituras manuscritas.
+              </p>  
+        </div>
+
+        <div class="social">
+            <a href="#" target="_blank"><img src="./img/linkedin.svg" alt=""></a>
+            <a href="#" target="_blank"><img src="./img/telegram.svg" alt=""></a>
+            <a data-modal-id="message" target="_blank"><img src="./img/message.svg" alt=""></a>              
+        </div>
+      </div>
+  </section>
+  
+  <div id="message" class="eins-modal" data-options="openTransition: expandIn;openDuration: 200;">
+      <div class="eins-modal-content">
+        <div class="eins-modal-close">&times;</div>
+        <form class="form"action="https://formspree.io/f/xwpwngaz"method="POST">
+            <label> Tu Correo Electrónico:
+            <input type="email" name="email">
+            </label>
+  
+            <label> Tu Mensaje:
+            <textarea name="message"></textarea>
+            </label>
+            <button type="submit">Enviar</button>
+        </form>
+      </div>
+  </div>
+
+  <footer>
+    <p>Copyright © 2025 Eider Fabián Román - Perito Grafólogo. Todos los derechos reservados. </p>
+  </footer>
+
+
+
+
+<script src="/node_modules/eins-modal/dist/js/eins-modal.min.js"></script>
+</body>
+</html>

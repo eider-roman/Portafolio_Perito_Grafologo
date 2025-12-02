@@ -1,0 +1,18 @@
+{
+  "name": "portafolio2025",
+  "version": "1.0.0",
+  "description": "portafolio perito version 2025",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/eider-roman"
+  },
+  "author": "Eider Román",
+  "license": "ISC",
+  "dependencies": {
+    "eins-modal": "^2.2.2"
+  }
+}
